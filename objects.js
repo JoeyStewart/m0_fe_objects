@@ -26,6 +26,7 @@ console.log(foods.grapes);
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 console.log(foods.bananas = 3);
+console.log(Objects.keys(food)):
 
 
 // -------------------

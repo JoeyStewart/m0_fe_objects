@@ -47,7 +47,7 @@ var email = {
   subject: "Vacation photos",
   address: "JimmyJoms@Gmail.com",
   recipient: "Richard Tracy",
-  closing: "Thanks again"
+  sent: true
 }
 
 
@@ -108,3 +108,16 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email =["Jimmy Joms", "Vacation Photos", "JimmyJoms@Gmail.com", "Richard Tracy"]
+email = [
+  {
+  sender: "Jimmy Joms",
+  subject: "Vacation Photos",
+  address: "JimmyJoms@Gmail.com",
+  recipient: "Richard Tracy",
+  sent: true
+  }
+]
+
+console.log(email)
